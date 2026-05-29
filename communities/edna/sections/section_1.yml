@@ -58,12 +58,12 @@ tabs:
    - id: tutorials
     title: Tutorials
     heading_md: >
-      Tutorials are.... 
+      Tutorials are xyz.
     content:
       - title_md: Uploading and Managing your Data
-       description_md: >
+        description_md: >
          Learn to navigate Galaxy and how to upload and manage data in the Galaxy platform.
-         buttons:
+      buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
             tip: View GTN topic
@@ -71,7 +71,7 @@ tabs:
         description_md: >
           Learn about quality control of sequencing reads. Quality control and data cleaning is an essential first step in any NGS analysis. This tutorial
           shows how to use and interpret results from <code>FastQC</code>, <code>NanoPlot</code> and <code>PycoQC</code>.
-        buttons:
+      buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
             tip: View GTN tutorial
@@ -79,14 +79,14 @@ tabs:
         description_md: >
           Explore the Galaxy user interface and basics. This tutorial familiarises you with the Galaxy user interface. Learn to import data, run tools,
           work with histories, create workflows, and share your work.
-        buttons:
+      buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html"
             tip: View GTN tutorial
       - title_md: Galaxy {{ site_name }} support
         description_md: >
           Any user of Galaxy {{ site_name }} can request support through an online form.
-        buttons:
+      buttons:
           - icon: help
             link: "{{ support_url }}"
             tip: Request support from Galaxy {{ site_name }}
