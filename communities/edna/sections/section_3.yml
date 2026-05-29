@@ -1,0 +1,41 @@
+id: section_3
+title: Learning resources
+tabs:
+  - id: resources
+    title: Tutorials and training
+    content:
+      - title_md: Taxonomic Analysis of eDNA
+        description_md: >
+          GTN tutorial covering taxonomic analysis of eDNA data.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/eDNA-taxonomic-analysis/tutorial.html"
+            tip: View tutorial
+      - title_md: Metabarcoding eDNA through OBITools
+        description_md: >
+          GTN tutorial for metabarcoding analysis using OBITools.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html"
+            tip: View tutorial
+      - title_md: Build an ASV table from 16S data using DADA2
+        description_md: >
+          GTN tutorial on constructing ASV tables with DADA2.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/dada-16S/tutorial.html"
+            tip: View tutorial
+      - title_md: Taxonomic profiling and visualisation of metagenomics data
+        description_md: >
+          GTN tutorial for metagenomics taxonomic profiling and visualisation.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html"
+            tip: View tutorial
+      - title_md: Analyses of metagenomics data — the global picture
+        description_md: >
+          Overview tutorial of metagenomic data analysis workflows and strategies.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/general-tutorial/tutorial.html"
+            tip: View tutorial

@@ -1,0 +1,9 @@
+# Server-specific overrides (inherits everything from base.yml)
+
+site_name: "Australia"
+galaxy_base_url: https://genome.usegalaxy.org.au
+root_domain: usegalaxy.org.au
+support_url: https://support.genome.edu.au/galaxy/
+data_privacy_url: https://site.usegalaxy.org.au/about#data-privacy
+terms_of_service_url: https://site.usegalaxy.org.au/about#terms-of-service
+quota_request_url: https://site.usegalaxy.org.au/request/quota

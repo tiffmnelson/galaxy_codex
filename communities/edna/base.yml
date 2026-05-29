@@ -1,0 +1,34 @@
+# Default spec for the Edna Lab landing page
+
+site_name: Australia
+lab_name: Edna Lab
+nationality: Australian
+
+# Galaxy base URL is templated per server
+galaxy_base_url: https://genome.usegalaxy.org.au
+subdomain: edna
+root_domain: usegalaxy.org.au
+
+toc: true
+toc_bar: false
+
+# Custom content relative to this file URL
+header_logo: static/logo.svg
+custom_css: static/custom.css
+intro_md: templates/intro.md
+footer_md: templates/footer.md
+conclusion_md: templates/conclusion.md
+
+# Support and site policy links (override per server if needed)
+support_url: https://help.usegalaxy.org
+data_privacy_url: https://site.usegalaxy.org.au/about#data-privacy
+terms_of_service_url: https://site.usegalaxy.org.au/about#terms-of-service
+quota_request_url: https://site.usegalaxy.org.au/request/quota
+
+# Sections to render on the page (order matters)
+sections:
+  - sections/section_1.yml
+  - sections/section_2.yml
+  - sections/section_3.yml
+  - sections/section_4.yml
+  - sections/section_5.yml

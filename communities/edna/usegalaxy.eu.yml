@@ -1,0 +1,5 @@
+# Server-specific overrides (inherits everything from base.yml)
+
+site_name: "Europe"
+galaxy_base_url: https://usegalaxy.eu
+root_domain: usegalaxy.eu

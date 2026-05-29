@@ -1,0 +1,17 @@
+id: section_4
+title: "Coming soon!"
+tabs:
+  - id: faire
+    title: FAIR eDNA (FAIRe) integrations
+    content:
+      - title_md: FAIR metadata, templates and repository submissions
+        description_md: >
+          Rich metadata using standardised vocabularies and formats, and publishing your eDNA data to international
+          repositories (e.g., GBIF, OBIS, INSDC), are essential for making your data FAIR, maximising its longevity
+          and value in a global biodiversity context. The <a href="https://fair-edna.github.io/">FAIR eDNA (FAIRe) initiative</a>
+          has developed comprehensive guidelines and a metadata checklist to support this process, along with a suite of
+          tools and scripts to help researchers implement them. The {{ lab_name }} team is currently working to implement
+          and refine these tools, focusing on improving usability and automation from generating templates and validating
+          datasets to formatting data for submission to major international databases.
+
+          Stay tuned — further updates from the {{ lab_name }} will be shared as development progresses!

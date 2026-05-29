@@ -1,0 +1,27 @@
+id: section_5
+title: Other resources
+tabs:
+  - id: other
+    title: Community and reference resources
+    content:
+      - title_md: The Southern eDNA Society
+        description_md: >
+          The peak body representing eDNA practitioners and users from New Zealand, Australia and other southern hemisphere nations.
+        buttons:
+          - label_md: Home | SeDNA Society
+            link: "https://www.sednasociety.com/"
+            tip: Visit website
+      - title_md: Australian BioCommons
+        description_md: >
+          Australia’s digital research infrastructure for molecular life science researchers in academia, government and industry.
+        buttons:
+          - label_md: Australian BioCommons
+            link: "https://www.biocommons.org.au/"
+            tip: Visit website
+      - title_md: National Biodiversity DNA Library
+        description_md: >
+          A repository of authoritative DNA reference sequences to support eDNA analysis in Australia.
+        buttons:
+          - label_md: National Biodiversity DNA Library (NBDL)
+            link: "https://nbdl.csiro.au/"
+            tip: Visit website

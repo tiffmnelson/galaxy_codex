@@ -1,0 +1,5 @@
+# Server-specific overrides (inherits everything from base.yml)
+
+site_name: "Main"
+galaxy_base_url: https://usegalaxy.org
+root_domain: usegalaxy.org

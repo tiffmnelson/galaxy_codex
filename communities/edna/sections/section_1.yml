@@ -1,0 +1,100 @@
+id: section_1
+title: Getting started
+tabs:
+  - id: data_import
+    title: Data import and preparation
+    heading_md: >
+      Here we are importing our data, joining it with metadata if we have it,
+      and preparing it for analysis. If you are new to Galaxy, uploading your
+      data is a good place to start!
+    content:
+      - title_md: "Upload data to Galaxy"
+        description_md: >
+          Standard upload of data to Galaxy, from your computer or from the web.
+        buttons:
+          - icon: run
+            link: "{{ galaxy_base_url }}/tool_runner?tool_id=upload1"
+            tip: Upload data
+  - id: how_import
+    title: How can I import my genomics data?
+    content:
+      - title_md: Learn how to upload and manage data
+        description_md: >
+          You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy.
+          Just look for the "Upload data" button at the top of the tool panel.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
+            tip: View GTN topic
+  - id: subsample
+    title: How can I subsample my data?
+    content:
+      - title_md: Subsample large data sets for quick testing
+        description_md: >
+          We recommend subsampling large data sets to test tools and workflows. A useful
+          tool is <code>seqtk_seq</code>, setting the parameter at "Sample fraction of sequences".
+  - id: sensitive
+    title: Can I upload sensitive data?
+    exclude_from:
+      - usegalaxy.org
+      - usegalaxy.eu
+    content:
+      - title_md: Do not upload personal or sensitive data
+        description_md: >
+          No, do not upload personal or sensitive data, such as human health or clinical data.
+          Please see our <a href="{{ data_privacy_url }}">Data Privacy</a> page for definitions of sensitive and
+          health-related information. Please also make sure you have read our
+          <a href="{{ terms_of_service_url }}">Terms of Service</a>, which covers hosting and analysis of research data.
+  - id: privacy
+    title: Is my data private?
+    exclude_from:
+      - usegalaxy.org
+      - usegalaxy.eu
+    content:
+      - title_md: Data privacy on Galaxy
+        description_md: >
+          Please read our <a href="{{ data_privacy_url }}">Privacy Policy</a> for information on your personal data
+          and any data that you upload.
+  - id: quota
+    title: How can I increase my storage quota?
+    exclude_from:
+      - usegalaxy.org
+      - usegalaxy.eu
+    content:
+      - title_md: Request more storage
+        description_md: >
+          Please submit a quota request if your Galaxy {{ site_name }} account reaches its data storage limit.
+          Requests are usually provisioned quickly if you provide a reasonable use case for your request.
+        buttons:
+          - icon: help
+            link: "{{ quota_request_url }}"
+            tip: Request a quota increase
+  - id: tutorial_qc
+    title: "Tutorial: Quality Control"
+    content:
+      - title_md: Learn about quality control of sequencing reads
+        description_md: >
+          Quality control and data cleaning is an essential first step in any NGS analysis. This tutorial
+          shows how to use and interpret results from <code>FastQC</code>, <code>NanoPlot</code> and <code>PycoQC</code>.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
+            tip: View GTN tutorial
+  - id: tutorial_intro
+    title: "Tutorial: introduction to Genomics and Galaxy"
+    content:
+      - title_md: Explore the Galaxy user interface and basics
+        description_md: >
+          This tutorial familiarises you with the Galaxy user interface. Learn to import data, run tools,
+          work with histories, create workflows, and share your work.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html"
+            tip: View GTN tutorial
+      - title_md: Galaxy {{ site_name }} support
+        description_md: >
+          Any user of Galaxy {{ site_name }} can request support through an online form.
+        buttons:
+          - icon: help
+            link: "{{ support_url }}"
+            tip: Request support from Galaxy {{ site_name }}
