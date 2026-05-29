@@ -15,10 +15,6 @@ tabs:
           - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=upload1"
             tip: Upload data
-        buttons:
-          - icon: tutorial
-            link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
-            tip: View GTN topic
       - title_md: How can I subsample my data?
         description_md: >
           You can subsample large data sets to test tools and workflows. A useful
@@ -59,23 +55,29 @@ tabs:
           - icon: help
             link: "{{ quota_request_url }}"
             tip: Request a quota increase
-  - id: tutorial_qc
-    title: "Tutorial: Quality Control"
+   - id: tutorials
+    title: Tutorials
+    heading_md: >
+      Tutorials are.... 
     content:
-      - title_md: Learn about quality control of sequencing reads
+      - title_md: Uploading and Managing your Data
+       description_md: >
+         Learn to navigate Galaxy and how to upload and manage data in the Galaxy platform.
+         buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
+            tip: View GTN topic
+      - title_md: Tutorial Quality Control
         description_md: >
-          Quality control and data cleaning is an essential first step in any NGS analysis. This tutorial
+          Learn about quality control of sequencing reads. Quality control and data cleaning is an essential first step in any NGS analysis. This tutorial
           shows how to use and interpret results from <code>FastQC</code>, <code>NanoPlot</code> and <code>PycoQC</code>.
         buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
             tip: View GTN tutorial
-  - id: tutorial_intro
-    title: "Tutorial: introduction to Genomics and Galaxy"
-    content:
-      - title_md: Explore the Galaxy user interface and basics
+      - title_md: Tutorial: introduction to Genomics and Galaxy
         description_md: >
-          This tutorial familiarises you with the Galaxy user interface. Learn to import data, run tools,
+          Explore the Galaxy user interface and basics. This tutorial familiarises you with the Galaxy user interface. Learn to import data, run tools,
           work with histories, create workflows, and share your work.
         buttons:
           - icon: tutorial
