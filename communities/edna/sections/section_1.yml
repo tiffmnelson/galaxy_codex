@@ -1,37 +1,27 @@
-id: section_1
+id: data
 title: Getting started
 tabs:
-  - id: data_import
-    title: Data import and preparation
+  - id: help
+    title: Overview
     heading_md: >
       Here we are importing our data, joining it with metadata if we have it,
       and preparing it for analysis. If you are new to Galaxy, uploading your
-      data is a good place to start!
+      data is a good place to start! Check out the Tools and Tutorials tabs for different approaches to uploading data and navigating Galaxy.
     content:
-      - title_md: "Upload data to Galaxy"
+      - title_md: How can I upload my data to Galaxy?
         description_md: >
-          Standard upload of data to Galaxy, from your computer or from the web.
+          You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy. Just look for the "Upload data" button at the top of the tool panel. You can upload data to Galaxy from your computer or from the web.
         buttons:
           - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=upload1"
             tip: Upload data
-  - id: how_import
-    title: How can I import my genomics data?
-    content:
-      - title_md: Learn how to upload and manage data
-        description_md: >
-          You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy.
-          Just look for the "Upload data" button at the top of the tool panel.
         buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
             tip: View GTN topic
-  - id: subsample
-    title: How can I subsample my data?
-    content:
-      - title_md: Subsample large data sets for quick testing
+      - title_md: How can I subsample my data?
         description_md: >
-          We recommend subsampling large data sets to test tools and workflows. A useful
+          You can subsample large data sets to test tools and workflows. A useful
           tool is <code>seqtk_seq</code>, setting the parameter at "Sample fraction of sequences".
   - id: sensitive
     title: Can I upload sensitive data?
