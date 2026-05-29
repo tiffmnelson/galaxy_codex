@@ -13,7 +13,7 @@ toc: true
 toc_bar: false
 
 # Custom content relative to this file URL
-header_logo: static/logo.svg
+header_logo: static/logo.jpg
 custom_css: static/custom.css
 intro_md: templates/intro.md
 footer_md: templates/footer.md
