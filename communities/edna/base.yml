@@ -1,7 +1,7 @@
-# Default spec for the Edna Lab landing page
+# Default spec for the eDNA Lab landing page
 
 site_name: Australia
-lab_name: Edna Lab
+lab_name: eDNA Lab
 nationality: Australian
 
 # Galaxy base URL is templated per server
