@@ -1,7 +1,7 @@
 id: data
 title: Getting started
 tabs:
-id: help
+- id: help
     title: Overview
     heading_md: >
       Here we are importing our data, joining it with metadata if we have it,
