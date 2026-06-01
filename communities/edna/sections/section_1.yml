@@ -55,7 +55,7 @@ tabs:
           - icon: help
             link: "{{ quota_request_url }}"
             tip: Request a quota increase
-   - id: tutorials
+- id: tutorials
     title: Tutorials
     heading_md: >
       Tutorials are xyz.
