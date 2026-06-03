@@ -24,7 +24,7 @@ tabs:
       title: Can I upload sensitive data?
       content:
         - title_md: Do not upload personal or sensitive data
-        description_md: >
+          description_md: >
           No, do not upload personal or sensitive data, such as human health or clinical data.
           Please see our <a href="{{ data_privacy_url }}">Data Privacy</a> page for definitions of sensitive and
           health-related information. Please also make sure you have read our
@@ -34,7 +34,7 @@ tabs:
       title: Is my data private?
       content:
         - title_md: Data privacy on Galaxy
-        description_md: >
+          description_md: >
           Please read our <a href="{{ data_privacy_url }}">Privacy Policy</a> for information on your personal data
           and any data that you upload.
    
@@ -42,10 +42,10 @@ tabs:
       title: How can I increase my storage quota?
       content:
         - title_md: Request more storage
-        description_md: >
+          description_md: >
           Please submit a quota request if your Galaxy {{ site_name }} account reaches its data storage limit.
           Requests are usually provisioned quickly if you provide a reasonable use case for your request.
-        buttons:
+          buttons:
           - icon: help
             link: "{{ quota_request_url }}"
             tip: Request a quota increase
@@ -58,30 +58,30 @@ tabs:
         - title_md: Uploading and Managing your Data
         description_md: >
          Learn to navigate Galaxy and how to upload and manage data in the Galaxy platform.
-      buttons:
+        buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
             tip: View GTN topic
         - title_md: Tutorial Quality Control
-        description_md: >
+          description_md: >
           Learn about quality control of sequencing reads. Quality control and data cleaning is an essential first step in any NGS analysis. This tutorial
           shows how to use and interpret results from <code>FastQC</code>, <code>NanoPlot</code> and <code>PycoQC</code>.
-      buttons:
+        buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
             tip: View GTN tutorial
         - title_md: Tutorial: introduction to Genomics and Galaxy
-        description_md: >
+          description_md: >
           Explore the Galaxy user interface and basics. This tutorial familiarises you with the Galaxy user interface. Learn to import data, run tools,
           work with histories, create workflows, and share your work.
-      buttons:
+        buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html"
             tip: View GTN tutorial
         - title_md: Galaxy {{ site_name }} support
-        description_md: >
+          description_md: >
           Any user of Galaxy {{ site_name }} can request support through an online form.
-      buttons:
+        buttons:
           - icon: help
             link: "{{ support_url }}"
             tip: Request support from Galaxy {{ site_name }}
