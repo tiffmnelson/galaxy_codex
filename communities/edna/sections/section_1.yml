@@ -19,34 +19,34 @@ tabs:
         description_md: >
           You can subsample large data sets to test tools and workflows. A useful
           tool is <code>seqtk_seq</code>, setting the parameter at "Sample fraction of sequences".
-  - id: sensitive
-    title: Can I upload sensitive data?
-    exclude_from:
+    - id: sensitive
+      title: Can I upload sensitive data?
+      exclude_from:
       - usegalaxy.org
       - usegalaxy.eu
-    content:
+      content:
       - title_md: Do not upload personal or sensitive data
         description_md: >
           No, do not upload personal or sensitive data, such as human health or clinical data.
           Please see our <a href="{{ data_privacy_url }}">Data Privacy</a> page for definitions of sensitive and
           health-related information. Please also make sure you have read our
           <a href="{{ terms_of_service_url }}">Terms of Service</a>, which covers hosting and analysis of research data.
-  - id: privacy
-    title: Is my data private?
-    exclude_from:
+    - id: privacy
+      title: Is my data private?
+      exclude_from:
       - usegalaxy.org
       - usegalaxy.eu
-    content:
+      content:
       - title_md: Data privacy on Galaxy
         description_md: >
           Please read our <a href="{{ data_privacy_url }}">Privacy Policy</a> for information on your personal data
           and any data that you upload.
-  - id: quota
-    title: How can I increase my storage quota?
-    exclude_from:
+    - id: quota
+      title: How can I increase my storage quota?
+      exclude_from:
       - usegalaxy.org
       - usegalaxy.eu
-    content:
+      content:
       - title_md: Request more storage
         description_md: >
           Please submit a quota request if your Galaxy {{ site_name }} account reaches its data storage limit.
@@ -55,11 +55,11 @@ tabs:
           - icon: help
             link: "{{ quota_request_url }}"
             tip: Request a quota increase
-- id: tutorials
-    title: Tutorials
-    heading_md: >
+    - id: tutorials
+      title: Tutorials
+      heading_md: >
       Tutorials are xyz.
-    content:
+      content:
       - title_md: Uploading and Managing your Data
         description_md: >
          Learn to navigate Galaxy and how to upload and manage data in the Galaxy platform.
