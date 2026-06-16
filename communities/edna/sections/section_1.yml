@@ -58,7 +58,7 @@ tabs:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html"
             tip: View GTN tutorial
-      - title_md: Tutorial: introduction to Genomics and Galaxy
+      - title_md: Tutorial Introduction to Genomics and Galaxy
         description_md: >
           Explore the Galaxy user interface and basics. This tutorial familiarises you with the Galaxy user interface. Learn to import data, run tools,
           work with histories, create workflows, and share your work.
