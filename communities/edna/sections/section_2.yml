@@ -13,8 +13,8 @@ tabs:
       search for more in the full tool panel to the left.
     content:
       subsections:
-        - id: data_qc
-          title: "Data import and quality control"
+        - id: qc_assessment
+          title: "Quality Control & Assessment"
           content:
             - title_md: "<code>FastQC</code> — read quality reports"
               description_md: "Read Quality reports"
@@ -53,9 +53,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/estrain/sum_fastqc"
                   tip: View in ToolShed
-        - id: long_read_qc
-          title: Long read quality control
-          content:
             - title_md: "<code>NanoFilt</code> — filter and trim long reads"
               description_md: "Filtering and trimming of long read sequencing data"
               buttons:
@@ -86,8 +83,9 @@ tabs:
                     - bam
                     - cram
                     - vcf_bgzip
-        - id: preprocessing
-          title: Preprocessing
+
+        - id: read_processing
+          title: "Read Processing & Preprocessing"
           content:
             - title_md: "<code>Cutadapt</code> — remove adapter sequences"
               description_md: "Remove adapter sequences from FASTQ/FASTA"
@@ -137,9 +135,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/seqtk"
                   tip: View in ToolShed
-        - id: long_read_preprocessing
-          title: Long read preprocessing
-          content:
             - title_md: "<code>Filtlong</code> — quality-based filtering of long reads"
               description_md: "Filtering long reads by quality"
               buttons:
@@ -173,8 +168,22 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/chopper"
                   tip: View in ToolShed
-        - id: long_read_alignment
-          title: Long read alignment
+            - title_md: "<code>Cutadapt</code> — demultiplexing and primer trimming"
+              description_md: >
+                Demultiplex reads and trim primers/adapters with Cutadapt and related QIIME 2 plugins.
+              buttons:
+                - icon: run
+                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt"
+                  tip: Run Cutadapt
+                - icon: view
+                  link: "https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__cutadapt__demux_paired"
+                  tip: View QIIME 2 Cutadapt (paired) in ToolShed
+                - icon: view
+                  link: "https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__cutadapt__demux_single"
+                  tip: View QIIME 2 Cutadapt (single) in ToolShed
+
+        - id: assembly_alignment
+          title: "Assembly & Alignment"
           content:
             - title_md: "<code>minimap2</code> — fast alignment of reads to references"
               description_md: "A fast pairwise aligner for genomic and spliced nucleotide sequences"
@@ -197,24 +206,37 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/medaka_consensus"
                   tip: View in ToolShed
-        - id: demultiplexing
-          title: Demultiplexing
-          content:
-            - title_md: "<code>Cutadapt</code> — demultiplexing and primer trimming"
-              description_md: >
-                Demultiplex reads and trim primers/adapters with Cutadapt and related QIIME 2 plugins.
+            - title_md: "<code>Canu</code> — long-read assembler"
+              description_md: "Assembler optimized for long error-prone reads such as PacBio, Oxford Nanopore"
               buttons:
                 - icon: run
-                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt"
-                  tip: Run Cutadapt
-                - icon: view
-                  link: "https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__cutadapt__demux_paired"
-                  tip: View QIIME 2 Cutadapt (paired) in ToolShed
-                - icon: view
-                  link: "https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__cutadapt__demux_single"
-                  tip: View QIIME 2 Cutadapt (single) in ToolShed
-        - id: read_merging
-          title: Read merging
+                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu"
+                  tip: Run Canu
+              inputs:
+                - label: Input reads
+                  datatypes:
+                    - fasta
+                    - fasta.gz
+                    - fastq
+                    - fastq.gz
+            - title_md: "<code>Flye</code> — de novo assembler for long reads"
+              description_md: "de novo assembler for single molecule sequencing reads"
+              buttons:
+                - icon: run
+                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye"
+                  tip: Run Flye
+              inputs:
+                - label: Input reads
+                  datatypes:
+                    - fasta
+                    - fasta.gz
+                    - fastq
+                    - fastq.gz
+                    - fastqsanger
+                    - fastqsanger.gz
+
+        - id: denoising_clustering
+          title: "Sequence Denoising, Merging & Clustering"
           content:
             - title_md: "<code>FLASH</code> — merge overlapping reads"
               description_md: >
@@ -237,9 +259,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/vsearch"
                   tip: View in ToolShed
-        - id: asv_zotu
-          title: ASV/ZOTU generation
-          content:
             - title_md: "<code>DADA2</code> — ASV inference pipeline"
               description_md: >
                 High-resolution sample inference from amplicon data.
@@ -275,40 +294,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/mothur_align_seqs"
                   tip: View mothur tools in ToolShed
-        - id: long_read_assembly
-          title: Long read assembly
-          content:
-            - title_md: "<code>Canu</code> — long-read assembler"
-              description_md: "Assembler optimized for long error-prone reads such as PacBio, Oxford Nanopore"
-              buttons:
-                - icon: run
-                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu"
-                  tip: Run Canu
-              inputs:
-                - label: Input reads
-                  datatypes:
-                    - fasta
-                    - fasta.gz
-                    - fastq
-                    - fastq.gz
-            - title_md: "<code>Flye</code> — de novo assembler for long reads"
-              description_md: "de novo assembler for single molecule sequencing reads"
-              buttons:
-                - icon: run
-                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye"
-                  tip: Run Flye
-              inputs:
-                - label: Input reads
-                  datatypes:
-                    - fasta
-                    - fasta.gz
-                    - fastq
-                    - fastq.gz
-                    - fastqsanger
-                    - fastqsanger.gz
-        - id: filtering
-          title: Filtering
-          content:
             - title_md: "<code>USEARCH</code> — filtering and dereplication"
               description_md: >
                 Utilities for filtering, dereplication and OTU workflows.
@@ -323,9 +308,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/vsearch"
                   tip: View in ToolShed
-        - id: chimera_removal
-          title: Chimera removal
-          content:
             - title_md: "<code>DADA2</code> — remove chimeras"
               description_md: >
                 Remove chimeric sequences as part of the DADA2 pipeline.
@@ -347,8 +329,9 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/vsearch"
                   tip: View in ToolShed
-        - id: taxonomic_assignment
-          title: Taxonomic assignment
+
+        - id: taxonomy
+          title: "Taxonomic Assignment & Classification"
           content:
             - title_md: "<code>BLAST+ database tools</code> — build and query databases"
               description_md: >
@@ -385,9 +368,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/repositories/f1243e78b0fd04f8"
                   tip: View RESCRIPt in ToolShed
-        - id: long_read_taxonomy
-          title: Long read taxonomy
-          content:
             - title_md: "<code>MEGAN-LR</code> — long-read taxonomy"
               description_md: >
                 Tools for taxonomic classification of long-read data.
@@ -395,8 +375,9 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/repositories/5b1606e993b8ac0f"
                   tip: View on ToolShed
-        - id: decontamination
-          title: Decontamination
+
+        - id: filtering_normalisation
+          title: "Data Filtering, Normalisation & Decontamination"
           content:
             - title_md: "<code>MicroDecon</code> — remove contaminant signal"
               description_md: >
@@ -412,9 +393,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/iuc/decontam"
                   tip: View in ToolShed
-        - id: normalization
-          title: Normalization
-          content:
             - title_md: "<code>CSS</code> (metagenomeSeq) — cumulative sum scaling"
               description_md: >
                 Normalisation methods for sparse count data.
@@ -435,8 +413,9 @@ tabs:
                     - tsv
                     - gtf
                     - gff3
-        - id: statistical_analysis
-          title: Statistical analysis
+
+        - id: analysis_visualisation
+          title: "Statistical Analysis & Visualisation"
           content:
             - title_md: "<code>ALDEx2</code> — differential abundance for compositional data"
               description_md: >
@@ -459,9 +438,6 @@ tabs:
                 - icon: run
                   link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2"
                   tip: Run DESeq2
-        - id: visualization
-          title: Visualization
-          content:
             - title_md: "<code>Krona</code> — interactive taxonomy charts"
               description_md: >
                 Create interactive hierarchical charts for taxonomic profiles.
@@ -504,9 +480,6 @@ tabs:
                 - icon: view
                   link: "https://toolshed.g2.bx.psu.edu/view/iuc/phyloseq_from_dada2"
                   tip: View phyloseq tools in ToolShed
-        - id: specialized
-          title: Specialized
-          content:
             - title_md: "<code>mmseqs2</code> — clustering and taxonomy at scale"
               description_md: >
                 Fast clustering and taxonomy assignment for large sequence sets.
