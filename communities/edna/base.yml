@@ -6,7 +6,7 @@ nationality: Australian
 
 # Galaxy base URL is templated per server
 galaxy_base_url: https://genome.usegalaxy.org.au
-subdomain: edna
+subdomain: eDNA
 root_domain: usegalaxy.org.au
 
 toc: true
