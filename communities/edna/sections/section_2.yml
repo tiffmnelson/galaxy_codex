@@ -34,7 +34,7 @@ tabs:
           tip: Run MultiQC
           inputs:
               - label: Result files from previous analyses
-                  datatypes:
+                datatypes:
                     - txt
                     - tabular
                     - tsv
