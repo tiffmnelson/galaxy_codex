@@ -19,13 +19,13 @@ tabs:
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/devteam/fastqc/fastqc"
           tip: Run FastQC
           inputs:
-                - label: Raw read data for quality assessment
-                  datatypes:
-                    - fastq
-                    - fastq.gz
-                    - fastq.bz2
-                    - bam
-                    - sam
+              - label: Raw read data for quality assessment
+                datatypes:
+                  - fastq
+                  - fastq.gz
+                  - fastq.bz2
+                  - bam
+                  - sam
       - title_md: "<code>MultiQC</code> — aggregate results into one report"
         description_md: "aggregate results from bioinformatics analyses into a single report"
         buttons:
@@ -35,10 +35,10 @@ tabs:
           inputs:
               - label: Result files from previous analyses
                 datatypes:
-                    - txt
-                    - tabular
-                    - tsv
-                    - csv
+                  - txt
+                  - tabular
+                  - tsv
+                  - csv
       - title_md: "FastQC summary utilities"
         description_md: >
           Additional wrappers to summarise FastQC output across samples.
@@ -56,10 +56,10 @@ tabs:
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/leomrtns/nanofilt/nanofilt"
           tip: Run NanoFilt
           inputs:
-                - label: Long-read FASTQ and optional summary file
-                  datatypes:
-                    - fastqsanger
-                    - tabular
+              - label: Long-read FASTQ and optional summary file
+                datatypes:
+                  - fastqsanger
+                  - tabular
       - title_md: "<code>NanoPlot</code> — ONT sequencing QC plots"
         description_md: "Plotting suite for Oxford Nanopore sequencing data and alignments"
         buttons:
@@ -67,18 +67,18 @@ tabs:
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/nanoplot/nanoplot"
           tip: Run NanoPlot
           inputs:
-                - label: Input data files (reads, alignments or stats)
-                  datatypes:
-                    - fastq
-                    - fastq.gz
-                    - fastq.bz2
-                    - fasta
-                    - fasta.gz
-                    - txt
-                    - zip
-                    - bam
-                    - cram
-                    - vcf_bgzip
+              - label: Input data files (reads, alignments or stats)
+                datatypes:
+                  - fastq
+                  - fastq.gz
+                  - fastq.bz2
+                  - fasta
+                  - fasta.gz
+                  - txt
+                  - zip
+                  - bam
+                  - cram
+                  - vcf_bgzip
 
   - id: read_processing
     title: "Read Processing & Preprocessing"
@@ -90,14 +90,14 @@ tabs:
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt"
           tip: Run Cutadapt
           inputs:
-                - label: Sequence reads or sequences and optional adapter files
-                  datatypes:
-                    - fastq
-                    - fastq.gz
-                    - fastq.bz2
-                    - fasta
-                    - fasta.gz
-                    - fasta.bz2
+              - label: Sequence reads or sequences and optional adapter files
+                datatypes:
+                  - fastq
+                  - fastq.gz
+                  - fastq.bz2
+                  - fasta
+                  - fasta.gz
+                  - fasta.bz2
         - title_md: "<code>Trimmomatic</code> — flexible read trimming"
           description_md: "flexible read trimming tool for Illumina NGS data"
           buttons:
@@ -151,12 +151,12 @@ tabs:
             inputs:
               - label: Reads or sequences
                 datatypes:
-                    - fasta
-                    - fasta.gz
-                    - fastqsanger
-                    - fastqsanger.gz
-                    - fastq
-                    - fastq.gz
+                  - fasta
+                  - fasta.gz
+                  - fastqsanger
+                  - fastqsanger.gz
+                  - fastq
+                  - fastq.gz
         - title_md: "<code>Chopper</code> — read trimming and filtering"
           description_md: >
             Trimming and filtering utilities for long reads.
@@ -188,13 +188,13 @@ tabs:
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2"
             tip: Run minimap2
               inputs:
-              - label: Reference and reads (as applicable)
-                  datatypes:
-                    - fasta
-                    - fastq
-                    - fastqsanger
-                    - fastqsanger.gz
-                    - bed
+                  - label: Reference and reads (as applicable)
+                    datatypes:
+                      - fasta
+                      - fastq
+                      - fastqsanger
+                      - fastqsanger.gz
+                      - bed
         - title_md: "<code>Medaka</code> — ONT polishing and consensus"
           description_md: >
             Variant calling and consensus polishing tools for Oxford Nanopore data.
@@ -209,8 +209,8 @@ tabs:
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu"
             tip: Run Canu
               inputs:
-              - label: Input reads
-                datatypes:
+                - label: Input reads
+                  datatypes:
                     - fasta
                     - fasta.gz
                     - fastq
@@ -222,8 +222,8 @@ tabs:
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye"
             tip: Run Flye
               inputs:
-              - label: Input reads
-                datatypes:
+                - label: Input reads
+                  datatypes:
                     - fasta
                     - fasta.gz
                     - fastq
