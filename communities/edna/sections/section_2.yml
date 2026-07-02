@@ -187,14 +187,14 @@ tabs:
           - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/minimap2/minimap2"
             tip: Run minimap2
-              inputs:
-                  - label: Reference and reads (as applicable)
-                    datatypes:
-                      - fasta
-                      - fastq
-                      - fastqsanger
-                      - fastqsanger.gz
-                      - bed
+            inputs:
+                - label: Reference and reads (as applicable)
+                  datatypes:
+                    - fasta
+                    - fastq
+                    - fastqsanger
+                    - fastqsanger.gz
+                    - bed
         - title_md: "<code>Medaka</code> — ONT polishing and consensus"
           description_md: >
             Variant calling and consensus polishing tools for Oxford Nanopore data.
@@ -208,28 +208,28 @@ tabs:
           - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/canu/canu"
             tip: Run Canu
-              inputs:
-                - label: Input reads
-                  datatypes:
-                    - fasta
-                    - fasta.gz
-                    - fastq
-                    - fastq.gz
+            inputs:
+              - label: Input reads
+                datatypes:
+                  - fasta
+                  - fasta.gz
+                  - fastq
+                  - fastq.gz
         - title_md: "<code>Flye</code> — de novo assembler for long reads"
           description_md: "de novo assembler for single molecule sequencing reads"
           buttons:
           - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/bgruening/flye/flye"
             tip: Run Flye
-              inputs:
-                - label: Input reads
-                  datatypes:
-                    - fasta
-                    - fasta.gz
-                    - fastq
-                    - fastq.gz
-                    - fastqsanger
-                    - fastqsanger.gz
+            inputs:
+              - label: Input reads
+                datatypes:
+                  - fasta
+                  - fasta.gz
+                  - fastq
+                  - fastq.gz
+                  - fastqsanger
+                  - fastqsanger.gz
 
   - id: denoising_clustering
     title: "Sequence Denoising, Merging & Clustering"
@@ -384,25 +384,25 @@ tabs:
             tip: View in ToolShed
         - title_md: "<code>decontam</code> (R) — prevalence/frequency-based filtering"
           description_md: >
-                Statistical identification of contaminant features in sequencing data.
-              buttons:
-                - icon: view
-                  link: "https://toolshed.g2.bx.psu.edu/iuc/decontam"
-                  tip: View in ToolShed
+            Statistical identification of contaminant features in sequencing data.
+          buttons:
+          - icon: view
+            link: "https://toolshed.g2.bx.psu.edu/iuc/decontam"
+            tip: View in ToolShed
         - title_md: "<code>CSS</code> (metagenomeSeq) — cumulative sum scaling"
-              description_md: >
-                Normalisation methods for sparse count data.
-              buttons:
-                - icon: view
-                  link: "https://toolshed.g2.bx.psu.edu/view/iuc/metagenomeseq_normalization"
-                  tip: View in ToolShed
+          description_md: >
+            Normalisation methods for sparse count data.
+          buttons:
+          - icon: view
+            link: "https://toolshed.g2.bx.psu.edu/view/iuc/metagenomeseq_normalization"
+            tip: View in ToolShed
         - title_md: "<code>DESeq2</code> — normalisation and differential analysis"
-              description_md: "Determines differentially expressed features from count tables"
-              buttons:
-                - icon: run
-                  link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2"
-                  tip: Run DESeq2
-              inputs:
+          description_md: "Determines differentially expressed features from count tables"
+          buttons:
+          - icon: run
+            link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2"
+            tip: Run DESeq2
+            inputs:
                 - label: Count tables, sample sheet and optional annotations
                   datatypes:
                     - tabular
