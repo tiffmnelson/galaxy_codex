@@ -44,10 +44,10 @@ tabs:
           Additional wrappers to summarise FastQC output across samples.
         buttons:
         - icon: view
-          link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/nml/fastqc_stats"
+          link: "https://toolshed.g2.bx.psu.edu/view/nml/fastqc_stats"
           tip: View in ToolShed
         - icon: view
-          link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/estrain/sum_fastqc"
+          link: "https://toolshed.g2.bx.psu.edu/view/estrain/sum_fastqc"
           tip: View in ToolShed
       - title_md: "<code>NanoFilt</code> — filter and trim long reads"
         description_md: "Filtering and trimming of long read sequencing data"
