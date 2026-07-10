@@ -43,12 +43,12 @@ tabs:
         description_md: >
           Additional wrappers to summarise FastQC output across samples.
         buttons:
-        - icon: view
+        - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/nml/fastqc_stats"
-          tip: View in ToolShed
-        - icon: view
+          tip: Run FastQC stats
+        - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/estrain/sum_fastqc"
-          tip: View in ToolShed
+          tip: Run sum FastQC
       - title_md: "<code>NanoFilt</code> — filter and trim long reads"
         description_md: "Filtering and trimming of long read sequencing data"
         buttons:
@@ -128,9 +128,9 @@ tabs:
         description_md: >
           Common utilities for FASTA/FASTQ manipulation including subsampling and conversion.
         buttons:
-        - icon: view
+        - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/seqtk"
-          tip: View in ToolShed
+          tip: Run Seqtk
       - title_md: "<code>Filtlong</code> — quality-based filtering of long reads"
         description_md: "Filtering long reads by quality"
         buttons:
@@ -161,9 +161,9 @@ tabs:
         description_md: >
           Trimming and filtering utilities for long reads.
         buttons:
-        - icon: view
+        - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/chopper"
-          tip: View in ToolShed
+          tip: Run Chopper
       - title_md: "<code>Cutadapt</code> — demultiplexing and primer trimming"
         description_md: >
           Demultiplex reads and trim primers/adapters with Cutadapt and related QIIME 2 plugins.
@@ -171,12 +171,12 @@ tabs:
         - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/cutadapt"
           tip: Run Cutadapt
-        - icon: view
+        - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__cutadapt__demux_paired"
-          tip: View QIIME 2 Cutadapt (paired) in ToolShed
-        - icon: view
+          tip: Run QIIME 2 Cutadapt (paired)
+        - icon: run
           link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__cutadapt__demux_single"
-          tip: View QIIME 2 Cutadapt (single) in ToolShed
+          tip: Run QIIME 2 Cutadapt (single)
 
   - id: assembly_alignment
     title: "Assembly & Alignment"
@@ -238,93 +238,93 @@ tabs:
           description_md: >
             Merge paired-end reads with overlap.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/flash"
-            tip: View in ToolShed
+            tip: Run FLASH
         - title_md: "<code>PEAR</code> — pair-end read merger"
           description_md: >
             Merge overlapping paired-end reads.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/pear"
-            tip: View in ToolShed
+            tip: Run PEAR
         - title_md: "<code>vsearch</code> — clustering and chimera tools"
           description_md: >
             Utilities for read merging, dereplication, chimera detection and clustering.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/vsearch"
-            tip: View in ToolShed
+            tip: Run vsearch - clustering
         - title_md: "<code>DADA2</code> — ASV inference pipeline"
           description_md: >
             High-resolution sample inference from amplicon data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/dada2_dada"
-            tip: View DADA2 in ToolShed
+            tip: Run DADA2
         - title_md: "<code>Deblur</code> — amplicon denoising (QIIME 2)"
           description_md: >
             Deblur-based denoising methods via QIIME 2.
           buttons:
-          - icon: view
+          - icon: run
             link: "https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__deblur__denoise_16S"
-            tip: View Deblur in ToolShed
+            tip: Run Deblur
         - title_md: "<code>QIIME 2</code> — amplicon analysis suite"
           description_md: >
             A comprehensive platform for microbiome analysis with many plugins.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/q2d2/"
-            tip: View QIIME 2 tools in ToolShed
+            tip: Run QIIME 2 tools
         - title_md: "<code>USEARCH</code> — OTU/ASV utilities"
           description_md: >
             Tools for clustering, chimera detection and OTU/ASV workflows.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/13df57e58dc7e075"
-            tip: View on ToolShed
+            tip: Run USEARCH - OTU/ASV utilities
         - title_md: "<code>mothur</code> — amplicon analysis suite"
           description_md: >
             A suite of tools for amplicon processing and analysis.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/mothur_align_seqs"
-            tip: View mothur tools in ToolShed
+            tip: Run mothur tools
         - title_md: "<code>USEARCH</code> — filtering and dereplication"
           description_md: >
             Utilities for filtering, dereplication and OTU workflows.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/13df57e58dc7e075"
-            tip: View on ToolShed
+            tip: Run USEARCH
         - title_md: "<code>vsearch</code> — filtering and chimera tools"
           description_md: >
             A versatile toolkit including filtering, dereplication and chimera detection.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/vsearch"
-            tip: View in ToolShed
+            tip: Run vsearch
         - title_md: "<code>DADA2</code> — remove chimeras"
           description_md: >
             Remove chimeric sequences as part of the DADA2 pipeline.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/dada2_removeBimeraDenovo"
-            tip: View DADA2 chimera removal in ToolShed
+            tip: Run DADA2 chimera removal
         - title_md: "<code>UCHIME</code> — chimera detection"
           description_md: >
             Reference-based and de novo chimera detection via vsearch or mothur wrappers.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/mothur_chimera_uchime"
-            tip: View mothur UCHIME in ToolShed
+            tip: Run UCHIME
         - title_md: "<code>vsearch</code> — chimera detection"
           description_md: >
             Chimera detection and related utilities.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/vsearch"
-            tip: View in ToolShed
+            tip: Run vsearch chimera detection
 
   - id: taxonomy
     title: "Taxonomic Assignment & Classification"
@@ -333,44 +333,44 @@ tabs:
           description_md: >
             Tools to create and manage BLAST databases and extract information.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus"
-            tip: View BLAST+ suite in ToolShed
+            tip: Run BLAST+ database tools
         - title_md: "<code>BLAST+</code> — sequence similarity search"
           description_md: >
             BLAST+ wrappers for common search tasks (blastn/x/p, tblastn/x, rpsblast, etc.).
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus"
-            tip: View BLAST+ suite in ToolShed
+            tip: Run BLAST+
         - title_md: "<code>MEGAN-CE</code> — taxonomic and functional analysis"
           description_md: >
             Taxonomic binning and exploration for metagenomic/metabarcoding data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/5b1606e993b8ac0f"
-            tip: View on ToolShed
+            tip: Run MEGAN-CE
         - title_md: "<code>RDP Classifier</code> — naive Bayesian taxonomy"
           description_md: >
             Assign taxonomy using the RDP classifier.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/93b4a316b22b85e2"
-            tip: View on ToolShed
+            tip: Run RDP Classifier
         - title_md: "<code>RESCRIPt</code> — reference database curation (QIIME 2)"
           description_md: >
             Tools to curate and evaluate reference databases for taxonomy assignment.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/f1243e78b0fd04f8"
-            tip: View RESCRIPt in ToolShed
+            tip: Run RESCRIPt
         - title_md: "<code>MEGAN-LR</code> — long-read taxonomy"
           description_md: >
             Tools for taxonomic classification of long-read data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/5b1606e993b8ac0f"
-            tip: View on ToolShed
+            tip: Run MEGAN-LR
 
   - id: filtering_normalisation
     title: "Data Filtering, Normalisation & Decontamination"
@@ -379,23 +379,23 @@ tabs:
           description_md: >
             Remove putative contaminants from metabarcoding data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/iuc/micro_decon/micro_decon"
-            tip: View in ToolShed
+            tip: Run MicroDecon
         - title_md: "<code>decontam</code> (R) — prevalence/frequency-based filtering"
           description_md: >
             Statistical identification of contaminant features in sequencing data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/iuc/decontam"
-            tip: View in ToolShed
+            tip: Run decontam
         - title_md: "<code>CSS</code> (metagenomeSeq) — cumulative sum scaling"
           description_md: >
             Normalisation methods for sparse count data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/metagenomeseq_normalization"
-            tip: View in ToolShed
+            tip: Run CSS
         - title_md: "<code>DESeq2</code> — normalisation and differential analysis"
           description_md: "Determines differentially expressed features from count tables"
           buttons:
@@ -417,16 +417,16 @@ tabs:
           description_md: >
             Differential abundance testing for microbiome count data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/aldex2"
-            tip: View in ToolShed
+            tip: Run ALDEx2
         - title_md: "<code>ANCOM/ANCOM-BC</code> — differential abundance (QIIME 2)"
           description_md: >
             Analysis of composition of microbiomes using QIIME 2 plugins.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/q2d2/qiime2__composition__ancom"
-            tip: View ANCOM in ToolShed
+            tip: Run ANCOM
         - title_md: "<code>DESeq2</code> — differential analysis"
           description_md: >
             Perform differential abundance testing on count tables.
@@ -438,48 +438,48 @@ tabs:
           description_md: >
             Create interactive hierarchical charts for taxonomic profiles.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/crs4/taxonomy_krona_chart"
-            tip: View in ToolShed
+            tip: Run Krona
         - title_md: "<code>UpSetR</code> — set intersection visuals"
           description_md: >
             Visualise set intersections across features or samples.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/62645cafa50a65c6"
-            tip: View on ToolShed
+            tip: Run UpSetR
         - title_md: "<code>ampvis2</code> — amplicon data visualisation"
           description_md: >
             A suite of plotting and analysis tools for amplicon data in R.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/suite_ampvis2"
-            tip: View ampvis2 suite in ToolShed
+            tip: Run ampvis2
         - title_md: "<code>ggplot2</code> (R) — general plotting"
           description_md: >
             Create a wide range of plots from tabular data.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/ggplot2_histogram"
-            tip: View ggplot2 wrappers in ToolShed
+            tip: Run ggplot2
         - title_md: "<code>indicspecies</code> (R) — indicator species analysis"
           description_md: >
             Identify indicator species for groups of sites.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/repositories/ecology/indicspecies"
-            tip: View on ToolShed
+            tip: Run indicspecies
         - title_md: "<code>phyloseq</code> — microbiome plots"
           description_md: >
                 Generate common microbiome visualisations from phyloseq objects.
           buttons:
-          - icon: view
+          - icon: run
             link: "https://toolshed.g2.bx.psu.edu/view/iuc/phyloseq_from_dada2"
-            tip: View phyloseq tools in ToolShed
+            tip: Run phyloseq tools
         - title_md: "<code>mmseqs2</code> — clustering and taxonomy at scale"
           description_md: >
             Fast clustering and taxonomy assignment for large sequence sets.
           buttons:
-          - icon: view
+          - icon: run
             link: "{{ galaxy_base_url }}/tool_runner?tool_id=https://toolshed.g2.bx.psu.edu/view/iuc/suite_mmseqs2"
             tip: View mmseqs2 suite in ToolShed
