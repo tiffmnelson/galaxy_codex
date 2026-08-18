@@ -4,9 +4,12 @@ tabs:
   - id: help
     title: Overview
     heading_md: >
-      Here we are importing our data, joining it with metadata if we have it,
-      and preparing it for analysis. If you are new to Galaxy, uploading your
+      If you are new to Galaxy, uploading your
       data is a good place to start! Check out the Tools and Tutorials tabs for different approaches to uploading data and navigating Galaxy.
+    content:
+      text: "Get to know the Galaxy environment."
+      image_url: "https://github.com/tiffmnelson/galaxy_codex/tree/main/communities/edna/static"
+      image_path: "./edna%20lab%20images.png"
     content:
       - title_md: How can I upload my data to Galaxy?
         description_md: >
