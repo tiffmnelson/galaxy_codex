@@ -4,7 +4,8 @@ tabs:
   - id: help
     title: Overview
     heading_md: >
-      ![Get to know the Galaxy environment.](https://github.com/tiffmnelson/galaxy_codex/tree/main/communities/edna/static/edna%20lab%20images.png)
+    content:
+      - title_md: Get to know the Galaxy environment.(https://github.com/tiffmnelson/galaxy_codex/tree/main/communities/edna/static/edna%20lab%20images.png)
 
       If you are new to Galaxy, uploading your
       data is a good place to start! Check out the Tools and Tutorials tabs for different approaches to uploading data and navigating Galaxy.    
