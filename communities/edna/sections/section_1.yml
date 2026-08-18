@@ -3,13 +3,13 @@ title: Getting started
 tabs:
   - id: help
     title: Overview
-    heading_md: > Get to know the Galaxy environment.
+    heading_md: Get to know the Galaxy environment.
     content:
     - title_md: Get to know the Galaxy environment.
       description_md: >
-      (./static/edna_lab_galaxy_interface.png)
-      If you are new to Galaxy, uploading your
-      data is a good place to start! Check out the Tools and Tutorials tabs for different approaches to uploading data and navigating Galaxy.    
+        (./static/edna_lab_galaxy_interface.png)
+        If you are new to Galaxy, uploading your
+        data is a good place to start! Check out the Tools and Tutorials tabs for different approaches to uploading data and navigating Galaxy.    
     content:
       - title_md: How can I upload my data to Galaxy?
         description_md: >
