@@ -7,7 +7,11 @@ tabs:
     content:
     - title_md: Get to know the Galaxy environment.
       description_md: >
+        Check out the Galaxy
         ![Galaxy Interface](./static/edna_lab_galaxy_interface.png)
+      buttons:
+      - label_md: a button
+        link: https://google.com
     content:
       - title_md: How can I upload my data to Galaxy?
         description_md: >
