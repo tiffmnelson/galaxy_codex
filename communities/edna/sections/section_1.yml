@@ -5,14 +5,10 @@ tabs:
     title: Overview
     heading_md: Get to know the Galaxy environment.
     content:
-    - title_md: Get to know the Galaxy environment.
-      description_md: >
-        Check out the Galaxy
-        ![Galaxy Interface](./static/edna_lab_galaxy_interface.png)
-      buttons:
-      - label_md: a button
-        link: https://google.com
-    content:
+      - title_md: Get to know the Galaxy environment.
+        description_md: >
+          Check out the Galaxy
+          ![Galaxy Interface](./static/edna_lab_galaxy_interface.png)
       - title_md: How can I upload my data to Galaxy?
         description_md: >
           You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy. Just look for the "Upload data" button at the top of the tool panel. You can upload data to Galaxy from your computer or from the web.
