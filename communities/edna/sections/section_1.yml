@@ -13,7 +13,7 @@ tabs:
           The Centre panel in the middle is the main area where tools and data analysis can be viewed.
           The History panel on the right shows the files (uploaded and generated) from your analysis and will display your “current” history.
           To get started you can register or login (1) to the Galaxy interface (1), find other labs (focused research interfaces) and training specific to Galaxy (2) and when ready you can upload your data (3) using a number of mechanisms. 
-          ![Galaxy Interface](./static/edna_interface_2.png)
+          ![Galaxy Interface](./static/edna_interface_3.png)
       - title_md: How can I upload my data to Galaxy?
         description_md: >
           You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy. Just look for the "Upload data" button at the top of the tool panel. You can upload data to Galaxy from your computer or from the web.
