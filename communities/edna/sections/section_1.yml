@@ -8,14 +8,19 @@ tabs:
       - title_md: How can I find my way around Galaxy?
         description_md: >
           The Galaxy homepage is divided into four sections (panels) as labelled in the image below:  
+
           
           The Activity Bar is where you can toggle the view navigate to the resources in Galaxy (Tools, Workflows, Histories etc.).  
+
           
           The Tools panel allows you to search for any of the 2000+ tools available in the Galaxy interface. By default, the tool Tools activity will be active and its panel will be expanded.  
+
           
           The Centre panel in the middle is the main area where tools and data analysis can be viewed.  
+
           
           The History panel on the right shows the files (uploaded and generated) from your analysis and will display your “current” history.  
+
           
           To get started you can register or login (1) to the Galaxy interface (1), find other labs (focused research interfaces) and training specific to Galaxy (2) and when ready you can upload your data (3) using a number of mechanisms. 
           ![Galaxy Interface](./static/edna_interface_3.png)
