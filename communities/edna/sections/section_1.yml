@@ -6,10 +6,10 @@ tabs:
     heading_md: See the questions below to get started and find your way around the Galaxy platform.
     content:
       - title_md: How can I find my way around Galaxy?
-        description_md: |
-          The Galaxy homepage is divided into four sections (panels) as labelled in the image below:
+        description_md: >
+          The Galaxy homepage is divided into four sections (panels) as labelled in the image below:>
           
-          The Activity Bar is where you can toggle the view navigate to the resources in Galaxy (Tools, Workflows, Histories etc.).
+          The Activity Bar is where you can toggle the view navigate to the resources in Galaxy (Tools, Workflows, Histories etc.).>
           
           The Tools panel allows you to search for any of the 2000+ tools available in the Galaxy interface. By default, the tool Tools activity will be active and its panel will be expanded.
           
