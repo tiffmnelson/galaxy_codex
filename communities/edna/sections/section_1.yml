@@ -10,7 +10,7 @@ tabs:
           The Galaxy homepage is divided into four sections (panels) as labelled in the image below:  
 
           
-          The Activity Bar is where you can toggle the view navigate to the resources in Galaxy (Tools, Workflows, Histories etc.).  
+          The Activity Bar is where you can toggle the view to navigate to the resources in Galaxy (Tools, Workflows, Histories etc.). At the top of the Activity Bar you can find the 'upload' button to move your data into Galaxy. 
 
           
           The Tools panel allows you to search for any of the 2000+ tools available in the Galaxy interface. By default, the tool Tools activity will be active and its panel will be expanded.  
@@ -22,8 +22,8 @@ tabs:
           The History panel on the right shows the files (uploaded and generated) from your analysis and will display your “current” history.  
 
           
-          To get started you can register or login (1) to the Galaxy interface (1), find other labs (focused research interfaces) and training specific to Galaxy (2) and when ready you can upload your data (3) using a number of mechanisms. 
-          ![Galaxy Interface](./static/edna_interface_3.png)
+          To get started you can register or login to the Galaxy interface (1). You can find other labs (focused research interfaces), training and support specific to Galaxy (2). 
+          ![Galaxy Interface](./static/edna_interface_labelled.png)
       - title_md: How can I upload my data to Galaxy?
         description_md: >
           You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy. Just look for the "Upload data" button at the top of the tool panel. You can upload data to Galaxy from your computer or from the web.
