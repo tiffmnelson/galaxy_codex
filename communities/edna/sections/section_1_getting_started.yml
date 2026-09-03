@@ -29,7 +29,7 @@ tabs:
 
           
           To get started you can register or login to the Galaxy interface (1). You can find other labs (focused research interfaces), training and support specific to Galaxy (2). 
-          ![Galaxy Interface](./static/edna_interface_labelled_2_smaller.png)
+          ![Galaxy Interface](./static/edna_interface_labelled_2_even_smaller.png)
       - title_md: How can I upload my data to Galaxy?
         description_md: >
           You can upload your data to Galaxy using the Upload tool from anywhere in Galaxy. Just look for the "Upload data" button at the top of the tool panel. You can upload data to Galaxy from your computer or from the web.
