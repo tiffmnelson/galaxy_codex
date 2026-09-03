@@ -27,10 +27,10 @@ quota_request_url: https://site.usegalaxy.org.au/request/quota
 
 # Sections to render on the page (order matters)
 sections:
-  - sections/section_1.yml
-  - sections/section_2.yml
-  - sections/section_3.yml
-  - sections/section_4.yml
-  - sections/section_5.yml
-  - sections/section_6.yml
+  - sections/section_1_getting_started.yml
+  - sections/section_2_analysis_tools.yml
+  - sections/section_3_workflows.yml
+  - sections/section_4_learning_resources.yml
+  - sections/section_5_coming_soon.yml
+  - sections/section_6_other_resources.yml
 
