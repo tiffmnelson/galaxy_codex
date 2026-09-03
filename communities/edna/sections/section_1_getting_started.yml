@@ -10,6 +10,7 @@ tabs:
           Galaxy lets you analyse your data in a web browser, with no coding. Pick a tool from the sections below (or search the full tool panel on the left) and run it on your data. Most analyses chain several tools together, with each result feeding the next. Every result is saved automatically to your **History** on the right, so you can inspect it, download it, or branch off and try 
           another approach. Nothing is overwritten. Once you're happy with a sequence of steps, save it as a **Workflow** it re-runs the same analysis in one click, and
           you can share it with colleagues to run on their own data. 
+          ![Galaxy Interface](./static/edna_data_flow.png)
       - title_md: How can I find my way around Galaxy?
         description_md: >
           The Galaxy homepage is divided into four sections (panels) as labelled in the image below:  
