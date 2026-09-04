@@ -24,7 +24,7 @@ tabs:
           
           To get started you can register or login to the Galaxy interface (1). You can find other labs (focused research interfaces), training and support specific to Galaxy (2). 
           <img class="img-fluid" src="./static/edna_interface_FINAL.png" alt="Galaxy Interface">
-       - title_md: How can I use Galaxy?
+      - title_md: How can I use Galaxy?
         description_md: >
           Galaxy lets you analyse your data in a web browser, with no coding. Pick a tool from the sections in the **Tools** panel or search via the searchbar and run it on your data. Most analyses chain several tools together, with each result feeding the next. Every result is saved automatically to your **History** on the right, so you can inspect it, download it, or branch off and try 
           another approach. Nothing is overwritten. Once you're happy with a sequence of steps, save it as a **Workflow**. You can re-run the same analysis in one click, and
