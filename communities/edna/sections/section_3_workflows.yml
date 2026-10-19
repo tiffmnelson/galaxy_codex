@@ -52,8 +52,8 @@ tabs:
 - id: iwc
   title: Peer-reviewed & FAIR workflows
   heading_md: "The following workflows are state of the art workflows that have been\n\
-    \ reviewed and are maintained by scientists.They are hosted on [WorkflowHub](https://workflowhub.eu/search?q=microgalaxy+galaxy)\n\
-    \ and maintained by [IWC](https://github.com/galaxyproject/iwc/)."
+    \ reviewed and are maintained by scientists.They are hosted on [WorkflowHub](https://workflowhub.eu/search?q=edna+galaxy)\n\
+    \ and maintained by [Intergalactic Workflow Commission (IWC)](https://github.com/galaxyproject/iwc/)."
   content:
   - title_md: Import workflows from WorkflowHub
     description_md: WorkflowHub is a workflow management system which allows 
@@ -84,25 +84,6 @@ tabs:
       composition calculation,Data parsing,Sequence assembly 
       validation,Cross-assembly
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1882'
-    button_tip: View workflow
-    button_icon: view
-  - title_md: 
-      sars-cov-2-pe-illumina-artic-ivar-analysis/SARS-COV-2-ILLUMINA-AMPLICON-IVAR-PANGOLIN-NEXTCLADE
-    description_md: Workflow covering operations related to Variant 
-      classification,SNP detection,Validation,Genome indexing,Primer 
-      removal,Generation,Read mapping,Variant calling,Sequence contamination 
-      filtering,Sequencing quality control,Sequence alignment,Methylation 
-      analysis,Tree-based sequence alignment
-    button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=155'
-    button_tip: View workflow
-    button_icon: view
-  - title_md: 
-      sars-cov-2-pe-illumina-wgs-variant-calling/COVID-19-PE-WGS-ILLUMINA
-    description_md: Workflow covering operations related to SNP 
-      detection,Validation,Genome indexing,Generation,Read mapping,Sequence 
-      contamination filtering,Sequencing quality control,Sequence 
-      alignment,Formatting
-    button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=113'
     button_tip: View workflow
     button_icon: view
   - title_md: generic-non-segmented-viral-variant-calling/main
