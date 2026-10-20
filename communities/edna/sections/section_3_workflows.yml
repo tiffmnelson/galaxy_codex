@@ -64,7 +64,7 @@ tabs:
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html
-  - title_md: quality-and-contamination-control/main
+  - title_md: Quality and Contamination control workflow for paired-end data
     description_md: Workflow covering operations related to Expression 
       analysis,Statistical calculation,Sequence contamination 
       filtering,Sequencing quality control,Data parsing,Taxonomic 
