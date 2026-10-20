@@ -65,15 +65,12 @@ tabs:
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html
   - title_md: Quality and Contamination Control Workflow for Paired-end Data
-    description_md: Workflow covering operations related to Expression 
-      analysis,Statistical calculation,Sequence contamination 
-      filtering,Sequencing quality control,Data parsing,Taxonomic 
-      classification,Cross-assembly
+    description_md: Short paired-end read analysis to provide quality analysis, read-cleaning and taxonomy assignation.
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1052'
     button_tip: View workflow
     button_icon: view
   - title_md: Amplicon Analysis for Paired-end Data with Dada2
-    description_md: "Dada2 amplicon analysis for paired end data. The workflow has three main outputs\n\  
+    description_md: "Dada2 amplicon analysis for paired end data. The workflow has three main outputs:\n\  
     1. the sequence table (output of makeSequenceTable); 2. the taxonomy (output of assignTaxonomy); and,\n\
     3. the counts which allow to track the number of sequences in the samples through the steps (output of sequence counts)."
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=790'
