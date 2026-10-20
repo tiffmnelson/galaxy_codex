@@ -72,9 +72,8 @@ tabs:
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1052'
     button_tip: View workflow
     button_icon: view
-  - title_md: Dada2: amplicon analysis for paired-end data
-    description_md: Workflow covering operations related to Variant calling,DNA 
-      barcoding
+  - title_md: Amplicon analysis for paired-end data with Dada2
+    description_md: Dada2 amplicon analysis for paired end data. The workflow has three main outputs, the sequence table (output of makeSequenceTable), the taxonomy (output of assignTaxonomy), and the counts which allow to track the number of sequences in the samples through the steps (output of sequence counts).
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=790'
     button_tip: View workflow
     button_icon: view
