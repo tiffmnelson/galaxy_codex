@@ -8,40 +8,40 @@ tabs:
     reviewed and community submitted workflows. You can use and customize the 
     example workflows found there.
   content:
-  - title_md: Creating a new workflow
+  - title_md: Create a New Workflow
     description_md: You can create a Galaxy workflow from scratch in the Galaxy 
       workflow editor.
     button_tip: Read Tips
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_create_new.html
-  - title_md: Running a workflow
+  - title_md: Run a Workflow
     description_md: Once you have a workflow, you can run it on data on your 
       history.
     button_tip: Read Tips
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_run.html
-  - title_md: Extracting a workflow from your history
-    description_md: A workflow can be shared publicly
+  - title_md: Extract a Workflow from Your History
+    description_md: A workflow can be shared publicly.
     button_tip: Read Tips
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_publish.html
-  - title_md: Make a workflow public
+  - title_md: Make a Workflow Public
     description_md: You can create a Galaxy workflow from scratch in the Galaxy 
       workflow editor.
     button_tip: Read Tips
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_create_new.html
-  - title_md: Annotate and Tag a workflow
-    description_md: To find a workflow, you can annotate it
+  - title_md: Annotate and Tag a Workflow
+    description_md: To improve findability and usability of a workflow, you can annotate it.
     button_tip: Read Tips
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_annotate.html
-  - title_md: Ensuring Workflows meet Best Practices
+  - title_md: Ensure Workflows meet Best Practices
     description_md: When you are editing a workflow, there are a number of 
       additional steps you can take to ensure that it is a Best Practice 
       workflow and will be more reusable.
@@ -52,10 +52,10 @@ tabs:
 - id: iwc
   title: Peer-reviewed & FAIR workflows
   heading_md: "The following workflows are state of the art workflows that have been\n\
-    \ reviewed and are maintained by scientists.They are hosted on [WorkflowHub](https://workflowhub.eu/search?q=edna+galaxy)\n\
+    \ reviewed and are maintained by scientists. They are hosted on [WorkflowHub](https://workflowhub.eu/search?q=edna+galaxy)\n\
     \ and maintained by [Intergalactic Workflow Commission (IWC)](https://github.com/galaxyproject/iwc/)."
   content:
-  - title_md: Import workflows from WorkflowHub
+  - title_md: Import Workflows from WorkflowHub
     description_md: WorkflowHub is a workflow management system which allows 
       workflows to be FAIR (Findable, Accessible, Interoperable, and Reusable), 
       citable, have managed metadata profiles, and be openly available for 
@@ -64,7 +64,7 @@ tabs:
     button_icon: tutorial
     button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_import.html
-  - title_md: Quality and Contamination control workflow for paired-end data
+  - title_md: Quality and Contamination Control Workflow for Paired-end Data
     description_md: Workflow covering operations related to Expression 
       analysis,Statistical calculation,Sequence contamination 
       filtering,Sequencing quality control,Data parsing,Taxonomic 
@@ -72,7 +72,7 @@ tabs:
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1052'
     button_tip: View workflow
     button_icon: view
-  - title_md: Amplicon analysis for paired-end data with Dada2
+  - title_md: Amplicon Analysis for Paired-end Data with Dada2
     description_md: Dada2 amplicon analysis for paired end data. The workflow has three main outputs:
     1/ the sequence table (output of makeSequenceTable); 2/ the taxonomy (output of assignTaxonomy); and, 3/ the counts which allow to track the number of sequences in the samples through the steps (output of sequence counts).
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=790'
@@ -85,18 +85,5 @@ tabs:
     input reference taxonomic database (e.g. HOMD, SILVA, PR2, UNITE) and uses the trained classifier to assign taxonomy 
     to OTUs/ASVs in the input Feature Table.
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=2098'
-    button_tip: View workflow
-    button_icon: view
-  - title_md: Building an amplicon sequence variant (ASV) table from 16S data 
-      using DADA2
-    description_md: Workflow covering operations related to 
-      Visualisation,Variant calling,DNA barcoding,Analysis,Deposition
-    button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1395'
-    button_tip: View workflow
-    button_icon: view
-  - title_md: Taxonomic Analysis of eDNA
-    description_md: Workflow covering operations related to Sequence 
-      contamination filtering,Sequencing quality control
-    button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=1723'
     button_tip: View workflow
     button_icon: view
