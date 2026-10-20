@@ -79,7 +79,7 @@ tabs:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
             tip: View GTN topic
-       - title_md: Using Galaxy and Managing your Data
+      - title_md: Using Galaxy and Managing your Data
         description_md: >
          Learn how to upload and manage data in the Galaxy platform.
         buttons:
