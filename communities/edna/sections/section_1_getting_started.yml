@@ -72,12 +72,19 @@ tabs:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html"
             tip: View GTN topic
-      - title_md: Using Galaxy and Managing your Data
+      - title_md: Understand and Using the Galaxy History System
+        description_md: >
+         Learn how Galaxy histories can created, navigated and manipulated.
+        buttons:
+          - icon: tutorial
+            link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
+            tip: View GTN topic
+       - title_md: Using Galaxy and Managing your Data
         description_md: >
          Learn how to upload and manage data in the Galaxy platform.
         buttons:
           - icon: tutorial
-            link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/"
+            link: "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/history/tutorial.html"
             tip: View GTN topic
       - title_md: Quality Control
         description_md: >
