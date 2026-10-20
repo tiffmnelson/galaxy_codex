@@ -27,6 +27,12 @@ tabs:
     button_tip: Read Tips
     button_icon: tutorial
     button_link: 
+      https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_publish.html    
+  - title_md: Make a Workflow Public for Sharing
+    description_md: A workflow can be shared publicly.
+    button_tip: Read Tips
+    button_icon: tutorial
+    button_link: 
       https://training.galaxyproject.org/training-material/faqs/galaxy/workflows_publish.html
   - title_md: Make a Workflow Public
     description_md: You can create a Galaxy workflow from scratch in the Galaxy 
