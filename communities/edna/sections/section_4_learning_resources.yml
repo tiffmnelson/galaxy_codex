@@ -18,21 +18,21 @@ tabs:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html"
             tip: View tutorial
-      - title_md: Build an ASV table from 16S data using DADA2
+      - title_md: Building an Amplicon Sequence Variant (ASV) Table from 16S Data using Dada2
         description_md: >
-          GTN tutorial on constructing ASV tables with DADA2.
+          GTN tutorial on constructing ASV tables with Dada2.
         buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/dada-16S/tutorial.html"
             tip: View tutorial
-      - title_md: Taxonomic profiling and visualisation of metagenomics data
+      - title_md: Taxonomic profiling and Visualisation of Metagenomics Data
         description_md: >
           GTN tutorial for metagenomics taxonomic profiling and visualisation.
         buttons:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/taxonomic-profiling/tutorial.html"
             tip: View tutorial
-      - title_md: Analyses of metagenomics data — the global picture
+      - title_md: Analyses of Metagenomics Data — the Global Picture
         description_md: >
           Overview tutorial of metagenomic data analysis workflows and strategies.
         buttons:
