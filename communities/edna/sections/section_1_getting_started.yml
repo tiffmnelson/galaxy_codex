@@ -72,7 +72,7 @@ tabs:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html"
             tip: View GTN topic
-      - title_md: Understand and Using the Galaxy History System
+      - title_md: Understanding and Using the Galaxy History System
         description_md: >
          Learn how Galaxy histories can created, navigated and manipulated.
         buttons:
@@ -101,7 +101,7 @@ tabs:
           - icon: tutorial
             link: "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html"
             tip: View GTN tutorial
-      - title_md: Galaxy {{ site_name }} support
+      - title_md: Galaxy {{ site_name }} Support
         description_md: >
           Any user of Galaxy {{ site_name }} can request support through an online form.
         buttons:
