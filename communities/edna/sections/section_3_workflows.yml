@@ -73,14 +73,17 @@ tabs:
     button_tip: View workflow
     button_icon: view
   - title_md: Amplicon analysis for paired-end data with Dada2
-    description_md: Dada2 amplicon analysis for paired end data. The workflow has three main outputs, the sequence table (output of makeSequenceTable), the taxonomy (output of assignTaxonomy), and the counts which allow to track the number of sequences in the samples through the steps (output of sequence counts).
+    description_md: Dada2 amplicon analysis for paired end data. The workflow has three main outputs:
+    1/ the sequence table (output of makeSequenceTable); 2/ the taxonomy (output of assignTaxonomy); and, 3/ the counts which allow to track the number of sequences in the samples through the steps (output of sequence counts).
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=790'
     button_tip: View workflow
     button_icon: view
   - title_md: Taxonomy Assignment with QIIME2
-    description_md: Workflow covering operations related to 
-      Visualisation,Demultiplexing,Taxonomic classification,Formattingon topics 
-      related to Taxonomy
+    description_md: This workflow performs taxonomic assignment for an input OTU/ASV 
+    (Operating Taxonomic Unit/Amplicon Sequence Variant) Feature Table and set of amplicon 
+    Representative Sequences using QIIME2. The workflow creates and trains a QIIME2 classifier for an 
+    input reference taxonomic database (e.g. HOMD, SILVA, PR2, UNITE) and uses the trained classifier to assign taxonomy 
+    to OTUs/ASVs in the input Feature Table.
     button_link: '{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=2098'
     button_tip: View workflow
     button_icon: view
